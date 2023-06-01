@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="contenido" content="Encriptador Alura">
+    <meta name="autor" content="Ronn Castro">
+    <link rel="stylesheet" href="flex.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/Logo.svg" alt="Logo Alura">
+        
+    </header>
+    <main>
+        <div class="codificado">
+            <textarea id="inputText" rows="15" cols="35" placeholder="Ingrese el texto aquí" required></textarea><br>
+            <button onclick="encrypt()">Encriptar</button>
+            <button onclick="decrypt()">Decrypt</button
+        </div>
+    </main>
+    <aside>
+        <div class="deCodificado">
+            <textarea id="outputText" rows="15" cols="35" readonly></textarea><br>
+            <button onclick="copyText()">copiar</button>
+            <button onclick="clearText()">Limpiar</button
+    
+        </div>
+    </aside>
+    <footer>
+        <p>&copy RonWoden SA 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
